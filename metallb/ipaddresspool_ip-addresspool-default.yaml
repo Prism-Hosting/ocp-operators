@@ -1,0 +1,10 @@
+apiVersion: metallb.io/v1beta1
+kind: IPAddressPool
+metadata:
+  name: ip-addresspool-default
+  namespace: openshift-gitops
+spec:
+  addresses:
+    - 172.16.2.0/24
+  autoAssign: true
+  avoidBuggyIPs: true
