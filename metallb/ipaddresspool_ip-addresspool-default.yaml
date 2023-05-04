@@ -2,7 +2,7 @@ apiVersion: metallb.io/v1beta1
 kind: IPAddressPool
 metadata:
   name: ip-addresspool-default
-  namespace: openshift-gitops
+  namespace: metallb-system
 spec:
   addresses:
     - 172.16.2.0/24
