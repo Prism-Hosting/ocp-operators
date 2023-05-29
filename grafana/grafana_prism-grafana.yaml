@@ -4,8 +4,6 @@ metadata:
   name: prism-grafana
   namespace: prism-monitoring
 spec:
-  service:
-    type: LoadBalancer
   config:
     auth.generic_oauth:
       auto_login: true
